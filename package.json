@@ -1,0 +1,27 @@
+{
+  "name": "dev20k-cli",
+  "version": "0.0.1",
+  "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebdybowski/dev20k-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "dev",
+    "20k",
+    "npm",
+    "bash",
+    "git"
+  ],
+  "author": "Seb Dybowski <dybowski@int.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebdybowski/dev20k-cli/issues"
+  },
+  "homepage": "https://github.com/sebdybowski/dev20k-cli#readme"
+}
