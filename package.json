@@ -1,6 +1,6 @@
 {
   "name": "dev20k-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   "bin": {
     "gsubmit": "lib/git/submit.js",
     "gcommit": "lib/git/commit.js",
-    "gnewbranch": "lib/git/new-branch.js"
+    "gnewbranch": "lib/git/new-branch.js",
+    "clr": "lib/bash/clear.js"
   },
   "repository": {
     "type": "git",
