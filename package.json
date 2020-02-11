@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/sebdybowski/dev20k-cli#readme",
   "dependencies": {
+    "lodash.get": "^4.4.2",
     "shelljs": "^0.8.3"
   }
 }
