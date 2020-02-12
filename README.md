@@ -19,5 +19,6 @@ clear console
 
 ## TODO:
 - use babel
-- implemet clr command
-- think about bundling and minification ???
+- think about bundling and minification (webpack ???)
+- implement commands from: https://github.com/sebdybowski/dev-configs/tree/master/bash
+- splitting on modules under common scope (@dev20k/xxx)
