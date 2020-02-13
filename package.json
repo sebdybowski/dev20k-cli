@@ -8,7 +8,8 @@
     "gsubmit": "lib/git/submit.js",
     "gcommit": "lib/git/commit.js",
     "gnewbranch": "lib/git/new-branch.js",
-    "clr": "lib/bash/clear.js"
+    "clr": "lib/bash/clear.js",
+    "mkdgo": "lib/bash/mkdgo.js"
   },
   "repository": {
     "type": "git",
