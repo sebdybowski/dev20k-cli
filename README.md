@@ -5,3 +5,4 @@ Pro CLI commands that make your pocket filled with dollars, because you will bec
 - use babel
 - implemet clr command
 - think about bundling and minification ???
+- buddy build process
