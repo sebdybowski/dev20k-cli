@@ -6,6 +6,7 @@
   "scripts": {},
   "bin": {
     "gsubmit": "lib/git/submit.js",
+    "gpull": "lib/git/pull.js",
     "gcommit": "lib/git/commit.js",
     "gnewbranch": "lib/git/new-branch.js",
     "clr": "lib/bash/clear.js",
