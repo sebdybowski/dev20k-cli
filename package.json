@@ -13,8 +13,7 @@
     "gpull": "lib/git/pull.js",
     "gcommit": "lib/git/commit.js",
     "gnewbranch": "lib/git/new-branch.js",
-    "clr": "lib/bash/clear.js",
-    "mkdgo": "lib/bash/mkdgo.js"
+    "clr": "lib/bash/clear.js"
   },
   "repository": {
     "type": "git",
