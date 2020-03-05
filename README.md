@@ -13,28 +13,34 @@ npm i -g dev20k-cli
 - add & commit changes
 
 ```shell script
-dev g commit "your commit message"
+xd commit "your commit message"
+# or
+xd com "your commit message"
 # manually: git add -A && git commit -m [message]
 ```
 
 - add & push all your changes to the current branch
 
 ```shell script
-dev g submit "your commit message"
+xd submit "your commit message"
+# or
+xd sub "your commit message"
 # manually: git add -A && git commit -m [message] && git push origin HEAD
 ```
 
 - pull latest changes from the current branch
 
 ```shell script
-dev g pull
+xd pull
 # manually: git pull origin HEAD
 ```
 
 - create new local branch and checkout on it
 
 ```shell script
-dev g newbranch branch/name
+xd newbranch branch/name
+# or
+xd nbr branch/name
 # manually: git checkout -b <branch/name>
 ```
 
@@ -42,7 +48,7 @@ dev g newbranch branch/name
 - clear console
 
 ```shell script
-dev b clr
+xd clr
 # manually: clear
 ```
 
