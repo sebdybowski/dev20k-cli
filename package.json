@@ -3,17 +3,15 @@
   "version": "0.0.11",
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "code-style": "eslint ./lib/**/*"
+  },
   "engines": {
     "node": ">=12.16.1",
     "npm": ">=6.13.4"
   },
   "bin": {
-    "gsubmit": "lib/git/submit.js",
-    "gpull": "lib/git/pull.js",
-    "gcommit": "lib/git/commit.js",
-    "gnewbranch": "lib/git/new-branch.js",
-    "clr": "lib/bash/clear.js"
+    "dev": "bin/dev20k.js"
   },
   "repository": {
     "type": "git",
@@ -35,7 +33,12 @@
   "homepage": "https://github.com/sebdybowski/dev20k-cli#readme",
   "dependencies": {
     "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "esm": "^3.2.25",
     "lodash.get": "^4.4.2",
     "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
