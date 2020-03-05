@@ -11,7 +11,7 @@
     "npm": ">=6.13.4"
   },
   "bin": {
-    "dev": "bin/dev20k.js"
+    "xd": "bin/dev20k.js"
   },
   "repository": {
     "type": "git",
