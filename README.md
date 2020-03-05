@@ -48,7 +48,7 @@ xd nbr branch/name
 - clear console
 
 ```shell script
-xd clr
+xd cx
 # manually: clear
 ```
 
