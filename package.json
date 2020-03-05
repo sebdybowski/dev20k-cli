@@ -4,6 +4,10 @@
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "main": "index.js",
   "scripts": {},
+  "engines": {
+    "node": ">=12.16.1",
+    "npm": ">=6.13.4"
+  },
   "bin": {
     "gsubmit": "lib/git/submit.js",
     "gpull": "lib/git/pull.js",
