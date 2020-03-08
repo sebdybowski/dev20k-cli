@@ -44,6 +44,15 @@ xd nbr branch/name
 # manually: git checkout -b <branch/name>
 ```
 
+- reset uncommitted changes 
+
+```shell script
+xd reset
+# or
+xd res
+# manually: git reset --hard
+```
+
 ### Bash commands
 - clear console
 
