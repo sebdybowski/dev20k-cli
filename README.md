@@ -53,6 +53,15 @@ xd res
 # manually: git reset --hard
 ```
 
+- remove directory recursively
+
+```shell script
+xd remove directory_name
+# or
+xd rm directory_name
+# manually: git rm -rf <directory_name>
+```
+
 ### Bash commands
 - clear console
 
