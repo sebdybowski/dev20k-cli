@@ -42,7 +42,7 @@ xd newbranch branch/name
 # or
 xd nbr branch/name
 # manually: git checkout -b <branch/name>
-```awdawdaw
+```
 
 - reset uncommitted changes 
 
