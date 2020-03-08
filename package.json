@@ -4,6 +4,7 @@
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm uninstall -g dev20k-cli",
     "code-style": "eslint ./lib/**/*"
   },
   "engines": {
