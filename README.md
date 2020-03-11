@@ -53,6 +53,15 @@ xd res
 # manually: git reset --hard
 ```
 
+- get status of changes
+
+```shell script
+xd status
+# or
+xd sta
+# manually: git status
+```
+
 - remove directory recursively
 
 ```shell script
