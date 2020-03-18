@@ -15,7 +15,7 @@ npm i -g dev20k-cli
 ```shell script
 xd commit "your commit message"
 # or
-xd com "your commit message"
+xd cm "your commit message"
 # manually: git add -A && git commit -m [message]
 ```
 
@@ -24,7 +24,7 @@ xd com "your commit message"
 ```shell script
 xd submit "your commit message"
 # or
-xd sub "your commit message"
+xd sb "your commit message"
 # manually: git add -A && git commit -m [message] && git push origin HEAD
 ```
 
@@ -32,6 +32,8 @@ xd sub "your commit message"
 
 ```shell script
 xd pull
+# or
+xd pl
 # manually: git pull origin HEAD
 ```
 
@@ -40,7 +42,7 @@ xd pull
 ```shell script
 xd newbranch branch/name
 # or
-xd nbr branch/name
+xd nb branch/name
 # manually: git checkout -b <branch/name>
 ```
 
@@ -49,7 +51,7 @@ xd nbr branch/name
 ```shell script
 xd reset
 # or
-xd res
+xd rs
 # manually: git reset --hard
 ```
 
@@ -58,7 +60,7 @@ xd res
 ```shell script
 xd status
 # or
-xd sta
+xd st
 # manually: git status
 ```
 
@@ -69,14 +71,6 @@ xd remove directory_name
 # or
 xd rm directory_name
 # manually: git rm -rf <directory_name>
-```
-
-### Bash commands
-- clear console
-
-```shell script
-xd -c
-# manually: clear
 ```
 
 ## TODO:
