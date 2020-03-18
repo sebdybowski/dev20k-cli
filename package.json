@@ -18,6 +18,10 @@
     "url": "git+https://github.com/sebdybowski/dev20k-cli.git"
   },
   "keywords": [
+    "dev20k",
+    "dev20k-cli",
+    "dybowski",
+    "sebdybowski",
     "cli",
     "dev",
     "20k",
@@ -35,7 +39,7 @@
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
     "esm": "^3.2.25",
-    "lodash.get": "^4.4.2",
+    "lodash.noop": "^3.0.1",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
