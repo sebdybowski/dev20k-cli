@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-
-const esm = require('esm')(module/*, options*/);
-module.exports = esm('./../lib/');
+// eslint-disable-next-line no-global-assign
+require = require('esm')(module/*, options*/);
+module.exports = require('./../lib/index');
