@@ -55,13 +55,14 @@ xd rs
 # manually: git reset --hard
 ```
 
-- get status of changes
+- get status of changes & last commits
 
 ```shell script
-xd status
+xd status 5
 # or
-xd st
-# manually: git status
+xd st 5
+# manually: git status && git log --oneline -n [commits_number]
+# number of commits logged by default: 5
 ```
 
 - remove directory recursively
