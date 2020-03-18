@@ -2,16 +2,21 @@
   "name": "dev20k-cli",
   "version": "0.1.5",
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
-  "main": "index.js",
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin",
+    "lib": "./lib"
+  },
+  "bin": {
+    "xd": "./bin/dev20k.js"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "code-style": "eslint ./lib/**/*"
   },
   "engines": {
     "node": ">=12.16.1",
     "npm": ">=6.13.4"
-  },
-  "bin": {
-    "xd": "bin/dev20k.js"
   },
   "repository": {
     "type": "git",
