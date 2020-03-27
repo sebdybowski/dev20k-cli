@@ -16,7 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint-fix"
+      "pre-push": "npm run lint-fix",
+      "post-update": "npm i"
     }
   },
   "engines": {
