@@ -75,6 +75,7 @@ xd rm directory_name
 ```
 
 ## TODO:
-- minifying?
+- building & minifying
 - implement commands from: https://github.com/sebdybowski/dev-configs/tree/master/bash
 - splitting on modules under common scope (@dev20k/xxx)?
+- migrate to exaca
