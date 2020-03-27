@@ -93,9 +93,19 @@ xd rm directory_name
 ```
 
 ### Bash commands
-TO:DO
+- show current directory & list all files inside
+
+```shell script
+xd list
+# or
+xd ls
+# manually: pwd && ls -lart
+```
 
 ## TODO:
-- minifying?
-- implement commands from: https://github.com/sebdybowski/dev-configs/tree/master/bash
-- splitting on modules under common scope (@dev20k/xxx)?
+| Task        | Priority          
+| ------------- |:-------------:|
+| building & minifying (webpack) | High |
+| implement commands from: https://github.com/sebdybowski/dev-configs/tree/master/bash | High |
+| splitting on modules under common scope (@dev20k/xxx) | Medium |
+| migrate to exaca | Low |
