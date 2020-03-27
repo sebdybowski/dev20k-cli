@@ -16,7 +16,7 @@
   },
   "husky": {
     "hooks": {
-      "lint-fix": "npm lint-fix"
+      "pre-push": "npm lint-fix"
     }
   },
   "engines": {
