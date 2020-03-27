@@ -18,7 +18,7 @@ export default [
         entries: [
           { find: 'utils', replacement: './lib/utils/index.js' },
           { find: 'git', replacement: './lib/git/index.js' },
-          { find: 'utils', replacement: './lib/bash/index.js' },
+          { find: 'bash', replacement: './lib/bash/index.js' },
         ]
       }),
       commonjs(),
