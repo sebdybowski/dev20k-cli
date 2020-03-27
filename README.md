@@ -93,7 +93,7 @@ xd rm directory_name
 ```
 
 ### Bash commands
-TO:DO
+TO:DO 
 
 ## TODO:
 - minifying?
