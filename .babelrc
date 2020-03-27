@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "modules": "commonjs",
+        "node": "current"
+      }
+    }]
+  ]
+}

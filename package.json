@@ -8,11 +8,12 @@
     "lib": "./lib"
   },
   "bin": {
-    "xd": "./bin/dev20k.js"
+    "xd": "./dist/cli.js"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint-fix": "eslint lib/** --fix"
+    "lint-fix": "eslint lib/** --fix",
+    "roll": "rollup -c  --environment INCLUDE_DEPS,BUILD:production"
   },
   "husky": {
     "hooks": {
@@ -49,12 +50,17 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
-    "esm": "^3.2.25",
     "lodash.noop": "^3.0.1",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.0.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "eslint": "^6.8.0",
-    "husky": "^4.2.3"
+    "husky": "^4.2.3",
+    "rollup": "^2.2.0",
+    "rollup-plugin-json": "^4.0.0"
   }
 }
