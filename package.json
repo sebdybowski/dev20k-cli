@@ -12,8 +12,9 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint-fix": "eslint lib/** --fix",
-    "roll": "rollup -c --watch"
+    "lint": "eslint lib/** --fix",
+    "start": "rollup -c --watch",
+    "build": "rollup -c"
   },
   "husky": {
     "hooks": {
