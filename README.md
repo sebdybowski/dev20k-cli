@@ -92,7 +92,7 @@ xd rm directory_name
 # manually: git rm -rf <directory_name>
 ```
 
-### Git commands
+### Bash commands
 TO:DO
 
 ## TODO:
