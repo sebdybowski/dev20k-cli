@@ -1,6 +1,15 @@
 # dev20k-cli
 Pro CLI commands that make your pocket filled with dollars, because you will become so good &amp;  efficient.
 
+## Table of contents
+| Chapter        | Link          
+| ------------- |:-------------:|
+| Installation      | [click here](#installation)   |
+| Usage             | [click here](#usage)          | 
+| \ --- Git commands  | [click here](#git-commands)   |
+| \ --- Bash commands  | [click here](#bash-commands)   |
+| TO:DO             | [click here](#todo)          | 
+
 ## Installation
 Install the library globally using npm:
 
@@ -26,6 +35,15 @@ xd submit "your commit message"
 # or
 xd sb "your commit message"
 # manually: git add -A && git commit -m [message] && git push origin HEAD
+```
+
+- push all your changes to the current branch
+
+```shell script
+xd push
+# or
+xd ps
+# manually: git push origin HEAD
 ```
 
 - pull latest changes from the current branch
@@ -73,6 +91,9 @@ xd remove directory_name
 xd rm directory_name
 # manually: git rm -rf <directory_name>
 ```
+
+### Bash commands
+TO:DO
 
 ## TODO:
 - building & minifying
