@@ -48,7 +48,7 @@
   "homepage": "https://github.com/sebdybowski/dev20k-cli#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "commander": "^4.1.1",
+    "commander": "^5.0.0",
     "esm": "^3.2.25",
     "lodash.noop": "^3.0.1",
     "shelljs": "^0.8.3"
