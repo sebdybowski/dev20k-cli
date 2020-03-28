@@ -1,6 +1,6 @@
 {
   "name": "dev20k-cli",
-  "version": "0.1.9",
+  "version": "0.2.6",
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "preferGlobal": true,
   "directories": {
@@ -8,15 +8,17 @@
     "lib": "./lib"
   },
   "bin": {
-    "xd": "./bin/dev20k.js"
+    "xd": "./dist/xd.js"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "lint-fix": "eslint lib/** --fix"
+    "lint": "eslint lib/** --fix",
+    "start": "rollup -c --watch",
+    "build": "rollup -c"
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint-fix",
+      "pre-push": "npm run lint",
       "post-update": "npm i"
     }
   },
@@ -49,12 +51,16 @@
   "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
-    "esm": "^3.2.25",
     "lodash.noop": "^3.0.1",
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.0.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
     "eslint": "^6.8.0",
-    "husky": "^4.2.3"
+    "husky": "^4.2.3",
+    "rollup": "^2.2.0",
+    "rollup-plugin-terser": "^5.3.0"
   }
 }
