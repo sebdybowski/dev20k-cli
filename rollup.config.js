@@ -10,7 +10,7 @@ export default [
       file: './dist/xd.js',
       format: 'umd',
       banner: '#! /usr/bin/env node',
-      name: 'xd'
+      name: 'xd',
     },
     plugins: [
       json(),
@@ -23,6 +23,7 @@ export default [
       }),
       commonjs(),
       terser()
-    ]
+    ],
+    external: [ 'commander', 'chalk', 'lodash.noop', 'shelljs' ],
   }
 ];
