@@ -1,6 +1,6 @@
 {
   "name": "dev20k-cli",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.",
   "preferGlobal": true,
   "directories": {
