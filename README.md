@@ -105,7 +105,6 @@ xd ls
 ## TODO:
 | Task        | Priority          
 | ------------- |:-------------:|
-| building & minifying (webpack) | High |
 | implement commands from: https://github.com/sebdybowski/dev-configs/tree/master/bash | High |
 | splitting on modules under common scope (@dev20k/xxx) | Medium |
-| migrate to exaca | Low |
+| migrate to execa | Low / Uncertain |
