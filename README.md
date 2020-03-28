@@ -8,7 +8,6 @@ Pro CLI commands that make your pocket filled with dollars, because you will bec
 | Usage             | [click here](#usage)          | 
 | \ --- Git commands  | [click here](#git-commands)   |
 | \ --- Bash commands  | [click here](#bash-commands)   |
-| TO:DO             | [click here](#todo)          | 
 
 ## Installation
 Install the library globally using npm:
