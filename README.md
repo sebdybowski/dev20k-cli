@@ -45,13 +45,20 @@ xd ps
 # manually: git push origin HEAD
 ```
 
-- pull latest changes from the current branch
+- pull latest changes from the current branch / specified branch
 
 ```shell script
 xd pull
 # or
 xd pl
 # manually: git pull origin HEAD
+```
+
+```shell script
+xd pull master
+# or
+xd pl master
+# manually: git pull origin master
 ```
 
 - create new local branch and checkout on it
