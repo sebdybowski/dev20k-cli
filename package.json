@@ -53,11 +53,13 @@
     "url": "https://github.com/sebdybowski/dev20k-cli/issues"
   },
   "homepage": "https://github.com/sebdybowski/dev20k-cli#readme",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^3.0.0",
     "commander": "^5.0.0",
     "lodash.noop": "^3.0.1",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-json": "^4.0.2",
