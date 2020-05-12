@@ -19,8 +19,7 @@
   "scripts": {
     "lint": "eslint lib/** --fix",
     "start": "rollup -c --watch",
-    "build": "rollup -c",
-    "postinstall": "npm run build"
+    "build": "rollup -c"
   },
   "husky": {
     "hooks": {
