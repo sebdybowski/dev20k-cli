@@ -42,6 +42,7 @@
     "array-bracket-spacing": [
       "error",
       "always"
-    ]
+    ],
+    "import/no-unresolved": 0
   }
 }
