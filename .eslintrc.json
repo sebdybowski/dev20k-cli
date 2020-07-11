@@ -3,7 +3,11 @@
     "node": true,
     "es6": true
   },
-  "extends": "eslint:recommended",
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -38,6 +42,7 @@
     "array-bracket-spacing": [
       "error",
       "always"
-    ]
+    ],
+    "import/no-unresolved": 0
   }
 }
