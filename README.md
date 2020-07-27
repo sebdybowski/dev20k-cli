@@ -112,6 +112,17 @@ xd cl test@test.gitprovider.com/repository.git
 # manually: git clone <path_to_repository>
 ```
 
+- remove all local branches repository
+
+```shell script
+xd rmbranches # in that case the only remaining branch will be current one and master
+xd rmbranches release # in that case the only remaining branch will be current one and release
+# or
+xd rmb # in that case the only remaining branch will be current one and master
+xd rmb release # in that case the only remaining branch will be current one and release
+# manually: git branch | grep -v '<default_branch>' | xargs git branch -D
+```
+
 ### Bash commands
 - show current directory & list all files inside
 
