@@ -98,6 +98,15 @@ xd rm directory_name
 # manually: git rm -rf <directory_name>
 ```
 
+- clone repository
+
+```shell script
+xd clone test@test.gitprovider.com/repository.git
+# or
+xd cl test@test.gitprovider.com/repository.git
+# manually: git clone <path_to_repository>
+```
+
 ### Bash commands
 - show current directory & list all files inside
 
