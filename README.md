@@ -4,6 +4,7 @@ Pro CLI commands that make your pocket filled with dollars, because you will bec
 ## Table of contents
 | Chapter        | Link          
 | ------------- |:-------------:|
+| Prerequisites      | [click here](#prerequisites)   |
 | Installation      | [click here](#installation)   |
 | Usage             | [click here](#usage)          | 
 | -- Git commands  | [click here](#git-commands)   |
@@ -11,7 +12,9 @@ Pro CLI commands that make your pocket filled with dollars, because you will bec
 
 ## Prerequisites
 Node `>=12.16.1`
+
 On unix based systems: `bash` or `zsh`
+
 On windows systems: `git-bash` or `powershell`
 
 ## Installation
