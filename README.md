@@ -9,6 +9,11 @@ Pro CLI commands that make your pocket filled with dollars, because you will bec
 | -- Git commands  | [click here](#git-commands)   |
 | -- Bash commands  | [click here](#bash-commands)   |
 
+## Prerequisites
+Node `>=12.16.1`
+On unix based systems: `bash` or `zsh`
+On windows systems: `git-bash` or `powershell`
+
 ## Installation
 Install the library globally using npm:
 
