@@ -37,7 +37,8 @@ Options:
 Commands:
   pull|pl [branch-name]         pull latest changes from current branch
   status|st [number]            shows status and [n] of last commits
-  submit|sb [message]           push all your uncommited changes to the current branch / specified branch
+  submit|sb [message]           push all your uncommited changes 
+                                to the current branch / specified branch
   commit|cm [message]           commit all your uncommited changes
   newbranch|nb <branch-name>    create new branch and switch to it
   remove|rm <directory>         remove files recursively
