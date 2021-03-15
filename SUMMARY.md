@@ -4,5 +4,8 @@
 
 ## Git commands
 
-* [Untitled](git-commands/untitled-1.md)
+---
+
+* [commit](commit.md)
+* [submit](submit.md)
 
