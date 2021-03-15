@@ -4,14 +4,21 @@ description: add & commit changes
 
 # commit
 
-Usage:
+Full syntax:
 
 ```bash
 xd commit "your commit message"
-# or
-xd cm "your commit message"
-# manually: git add -A && git commit -m [message]
 ```
 
+Short syntax:
 
+```bash
+xd cm "your commit message"
+```
+
+What's happening inside:
+
+```bash
+git add -A && git commit -m [message]
+```
 
