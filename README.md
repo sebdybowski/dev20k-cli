@@ -14,7 +14,7 @@ Node `>=12.16.1`
 
 On unix based systems: `bash` or `zsh`
 
-On windows systems: `git-bash` or `powershell222`
+On windows systems: `git-bash` or `powershell`
 
 ## Installation
 
