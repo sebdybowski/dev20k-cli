@@ -6,7 +6,9 @@ description: >-
 
 # Introduction
 
-### Prerequisites
+For **docs** click [here](https://app.gitbook.com/@dybowski/s/dev20k-cli).
+
+Prerequisites
 
 Node `>=12.16.1`
 
