@@ -9,3 +9,7 @@
 * [commit](commit.md)
 * [submit](submit.md)
 
+## Terminal commands
+
+* [list](terminal-commands/list.md)
+
