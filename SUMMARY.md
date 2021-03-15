@@ -4,10 +4,8 @@
 
 ## Git commands
 
----
-
-* [commit](commit.md)
-* [submit](submit.md)
+* [commit](git-commands/commit.md)
+* [submit](git-commands/submit.md)
 
 ## Terminal commands
 
@@ -15,9 +13,7 @@
 
 ## Useful links
 
----
-
-* [Github repository](https://github.com/sebdybowski/dev20k-cli)
 * [NPM package](https://www.npmjs.com/package/dev20k-cli)
+* [Github repository](https://github.com/sebdybowski/dev20k-cli)
 * [Seb's website](https://dybowski.pro)
 
