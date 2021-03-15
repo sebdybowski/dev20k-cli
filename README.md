@@ -19,6 +19,6 @@ On windows systems: `git-bash` or `powershell222`
 Install the library globally using npm:
 
 ```text
-shell script npm i -g dev20k-cli
+npm i -g dev20k-cli
 ```
 
