@@ -47,6 +47,5 @@ Commands:
   rmbranches|rmb [main-branch]  remove all local branches except main
   list|ls                       lists files and shows current directory
   help [command]                display help for command
-
 ```
 
