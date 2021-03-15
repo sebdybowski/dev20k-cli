@@ -4,7 +4,7 @@ description: >-
   become so good & efficient.
 ---
 
-# Introduction
+# Getting started
 
 For **docs** click [here](https://app.gitbook.com/@dybowski/s/dev20k-cli).
 

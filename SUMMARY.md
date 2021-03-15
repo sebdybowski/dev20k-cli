@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Getting started](README.md)
 
 ## Git commands
 
@@ -12,4 +12,12 @@
 ## Terminal commands
 
 * [list](terminal-commands/list.md)
+
+## Useful links
+
+---
+
+* [Github repository](https://github.com/sebdybowski/dev20k-cli)
+* [NPM package](https://www.npmjs.com/package/dev20k-cli)
+* [Seb's portfolio](https://dybowski.pro)
 
