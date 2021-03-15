@@ -19,5 +19,5 @@
 
 * [Github repository](https://github.com/sebdybowski/dev20k-cli)
 * [NPM package](https://www.npmjs.com/package/dev20k-cli)
-* [Seb's portfolio](https://dybowski.pro)
+* [Seb's website](https://dybowski.pro)
 
