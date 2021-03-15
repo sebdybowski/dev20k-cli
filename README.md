@@ -1,18 +1,10 @@
-# index
+---
+description: >-
+  Pro CLI commands that make your pocket filled with dollars, because you will
+  become so good & efficient.
+---
 
-## dev20k-cli
-
-Pro CLI commands that make your pocket filled with dollars, because you will become so good & efficient.
-
-### Table of contents
-
-| Chapter | Link |
-| :--- | :---: |
-| Prerequisites | [click here]() |
-| Installation | [click here]() |
-| Usage | [click here]() |
-| -- Git commands | [click here]() |
-| -- Bash commands | [click here]() |
+# Introduction
 
 ### Prerequisites
 
