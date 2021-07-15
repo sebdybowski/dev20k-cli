@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.0.1",
-    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-commonjs": "^19.0.1",
     "@rollup/plugin-json": "^4.0.2",
     "eslint": "^7.4.0",
     "eslint-plugin-import": "^2.22.0",
