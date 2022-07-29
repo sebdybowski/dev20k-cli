@@ -8,7 +8,7 @@ export default [
     input: './lib/index.js',
     output: {
       file: './dist/xd.js',
-      format: 'es',
+      format: 'umd',
       banner: '#! /usr/bin/env node',
       name: 'xd'
     },
