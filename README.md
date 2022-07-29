@@ -10,7 +10,7 @@ For **docs** click [here](https://app.gitbook.com/@dybowski/s/dev20k-cli).
 
 ## Prerequisites
 
-Node `>=12.16.1`
+Node `>=16.16.0`
 
 On unix based systems: `bash` or `zsh`
 
@@ -26,7 +26,7 @@ npm i -g dev20k-cli
 
 ## Usage
 
-```bash
+```sh
 ❯ xd -h
 Usage: xd [options] [command]
 
@@ -49,4 +49,7 @@ Commands:
   list|ls                       lists files and shows current directory
   help [command]                display help for command
 ```
-
+## Commands
+- [list](lib/sh/list)
+- [commit](lib/git/commit)
+- [submit](lib/git/submit)
