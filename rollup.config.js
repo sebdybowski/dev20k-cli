@@ -11,6 +11,12 @@ export default [
       format: 'umd',
       banner: '#! /usr/bin/env node',
       name: 'xd',
+      globals: {
+        commander: 'commander',
+        chalk: 'chalk',
+        ['lodash.noop']: 'lodash.noop',
+        shelljs: 'shelljs',
+      },
     },
     plugins: [
       json(),
@@ -18,7 +24,7 @@ export default [
         entries: [
           { find: 'utils', replacement: './lib/utils/index.js' },
           { find: 'git', replacement: './lib/git/index.js' },
-          { find: 'bash', replacement: './lib/bash/index.js' },
+          { find: 'sh', replacement: './lib/sh/index.js' },
         ]
       }),
       commonjs(),
